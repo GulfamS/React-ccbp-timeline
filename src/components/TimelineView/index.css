@@ -1,0 +1,47 @@
+.timeline-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 1110px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.timeline-heading {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1e293b;
+  line-height: 2.7;
+}
+@media screen and (min-width: 768px) {
+  .timeline-heading {
+    font-size: 20px;
+  }
+}
+
+.ccbp-heading {
+  font-family: Roboto;
+  color: #2b237c;
+  font-size: 24px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .ccbp-heading {
+    font-size: 30px;
+  }
+}
